@@ -14,7 +14,7 @@ data:extend({
     },
     results=
     {
-      {type="fluid", name="hot-steam", amount= 400, temperature=250},
+      {type="fluid", name="hot-steam", amount= 14000, temperature=250},
       {type="item", name="spent-nuclear-fuel", amount=1},
     }
   },
