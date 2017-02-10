@@ -96,6 +96,15 @@ data:extend(
     order = "a[fluid]-b[]",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
+  },
+  {
+    type = "item",
+    name = "uranium-solid-fuel",
+    icon = "__base__/graphics/icons/solid-fuel.png",
+    flags = {"goes-to-main-inventory"},
+    fuel_value = "255MJ",
+    subgroup = "nuclear-fuel",
+    order = "d",
+    stack_size = 100
   }
-  
 })

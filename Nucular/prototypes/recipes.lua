@@ -45,6 +45,16 @@ data:extend(
     {
       enabled = false,
       type = "recipe",
+      name = "uranium-solid-fuel",
+      icon = "__base__/graphics/icons/solid-fuel.png",
+      subgroup = "nuclear-fuel",
+      energy_required = 6,
+      ingredients = {{"depleted-uranium", 1}, {"coal",10}},
+      result="uranium-solid-fuel"
+    },
+    {
+      enabled = false,
+      type = "recipe",
       name = "MOX-fuel",
       icon = "__Nucular__/graphics/icons/nuclear-fuel-plutonium.png",
       subgroup = "nuclear-fuel",

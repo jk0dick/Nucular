@@ -107,27 +107,27 @@ data:extend(
     },
     order = "f-nuc-d"
   },
-  -- {
-  --   type = "technology",
-  --   name = "particle-physics",
-  --   icon_size = 128,
-  --   icon = "__Nucular__/graphics/technology/particle-physics.png",
-  --   prerequisites = {"nuclear-reactor", "alien-technology"},
-  --   effects =
-  --   {
-  --     {
-  --       type = "unlock-recipe",
-  --       recipe = "plutonium-science-pack"
-  --     }
-  --   },
-  --   unit =
-  --   {
-  --     count = 500,
-  --     ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
-  --     time = 30
-  --   },
-  --   order = "f-nuc-f"
-  -- },
+  {
+    type = "technology",
+    name = "particle-physics",
+    icon_size = 128,
+    icon = "__Nucular__/graphics/technology/particle-physics.png",
+    prerequisites = {"nuclear-reactor"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "uranium-solid-fuel"
+      }
+    },
+    unit =
+    {
+      count = 1500,
+      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
+      time = 30
+    },
+    order = "f-nuc-f"
+  },
   {
     type = "technology",
     name = "atomic-bomb",
