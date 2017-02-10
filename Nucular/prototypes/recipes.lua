@@ -64,7 +64,7 @@ data:extend(
       result="nuclear-fuel"
     },
     {
-      icon = "__Nucular__/graphics/icons/nuclear-reprocessing.png",
+      icon = "__Nucular__/graphics/icons/uranium.png",
       enabled = false,
       type = "recipe",
       name = "nuclear-reprocessing",
