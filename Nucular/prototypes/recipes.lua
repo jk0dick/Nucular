@@ -39,7 +39,7 @@ data:extend(
       icon = "__Nucular__/graphics/icons/nuclear-fuel-uranium.png",
       subgroup = "nuclear-fuel",
       energy_required = 6,
-      ingredients = {{"enriched-uranium", 1}, {"iron-plate",1}},
+      ingredients = {{"enriched-uranium", 10}, {"iron-plate",10}},
       result="nuclear-fuel"
     },
     {
@@ -49,7 +49,7 @@ data:extend(
       icon = "__Nucular__/graphics/icons/nuclear-fuel-plutonium.png",
       subgroup = "nuclear-fuel",
       energy_required = 18,
-      ingredients = {{"plutonium", 1},{"uranium", 2}, {"iron-plate",3}},
+      ingredients = {{"plutonium", 1}, {"iron-plate",3}},
       result_count = 3,
       result="nuclear-fuel"
     },
@@ -60,11 +60,10 @@ data:extend(
       name = "nuclear-reprocessing",
       subgroup = "nuclear-fuel",
       energy_required = 24,
-      ingredients = {{"spent-nuclear-fuel",12}},
+      ingredients = {{"spent-nuclear-fuel",6}},
       results=
       {
-        {type="item", name="uranium", amount=8},
-        {type="item", name="plutonium", amount=1}
+        {type="item", name="uranium", amount=6}
       }
     }, {
       enabled = false,
@@ -72,10 +71,10 @@ data:extend(
       name = "nuclear-reactor",
       ingredients = {
         {"nuclear-fuel", 50},
-        {"steel-plate", 200},
-        {"concrete", 300},
-        {"advanced-circuit", 50},
-        {"pipe", 50}
+        {"steel-plate", 800},
+        {"concrete", 1200},
+        {"advanced-circuit", 200},
+        {"pipe", 200}
       },
       result="nuclear-reactor"
     },  {
@@ -83,20 +82,11 @@ data:extend(
       type = "recipe",
       name = "steam-turbine",
       ingredients = {
-        {"pipe", 20},
-        {"electric-engine-unit", 20},
-        {"steel-plate", 40}
+        {"pipe", 200},
+        {"electric-engine-unit", 40},
+        {"steel-plate", 120}
       },
       result="steam-turbine"
-    },{
-      type = "recipe",
-      name = "plutonium-science-pack",
-      enabled = false,
-      energy_required = 12,
-      ingredients = {{"plutonium", 1}
-      },
-      result = "alien-science-pack",
-      result_count = 2,
     }
   }
 )

@@ -27,7 +27,7 @@ data:extend(
     },
     unit =
     {
-      count = 75,
+      count = 750,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
       time = 30
     },
@@ -56,7 +56,7 @@ data:extend(
     },
     unit =
     {
-      count = 150,
+      count = 1500,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
       time = 30
     },
@@ -81,7 +81,7 @@ data:extend(
     },
     unit =
     {
-      count = 100,
+      count = 1000,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
       time = 30
     },
@@ -101,33 +101,33 @@ data:extend(
     },
     unit =
     {
-      count = 200,
+      count = 2000,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
       time = 30
     },
     order = "f-nuc-d"
   },
-  {
-    type = "technology",
-    name = "particle-physics",
-    icon_size = 128,
-    icon = "__Nucular__/graphics/technology/particle-physics.png",
-    prerequisites = {"nuclear-reactor", "alien-technology"},
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "plutonium-science-pack"
-      }
-    },
-    unit =
-    {
-      count = 300,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
-      time = 30
-    },
-    order = "f-nuc-f"
-  },
+  -- {
+  --   type = "technology",
+  --   name = "particle-physics",
+  --   icon_size = 128,
+  --   icon = "__Nucular__/graphics/technology/particle-physics.png",
+  --   prerequisites = {"nuclear-reactor", "alien-technology"},
+  --   effects =
+  --   {
+  --     {
+  --       type = "unlock-recipe",
+  --       recipe = "plutonium-science-pack"
+  --     }
+  --   },
+  --   unit =
+  --   {
+  --     count = 500,
+  --     ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
+  --     time = 30
+  --   },
+  --   order = "f-nuc-f"
+  -- },
   {
     type = "technology",
     name = "atomic-bomb",
@@ -148,7 +148,7 @@ data:extend(
     },
     unit =
     {
-      count = 300,
+      count = 1200,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
       time = 30
     },
@@ -173,7 +173,7 @@ data:extend(
     },
     unit =
     {
-      count = 100,
+      count = 1000,
       ingredients = {{"science-pack-1", 1},{"science-pack-2", 1}},
       time = 30
     },

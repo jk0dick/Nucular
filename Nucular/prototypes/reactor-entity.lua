@@ -58,7 +58,7 @@ data:extend(
         apparent_volume = 1.5,
       },
       crafting_speed = 1,
-      ingredient_count = 4,
+      ingredient_count = 2,
 
       energy_source =
       {

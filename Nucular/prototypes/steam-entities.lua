@@ -75,7 +75,7 @@ data:extend(
       allowed_effects = {"productivity"},
       vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
       crafting_speed = 1,
-      ingredient_count = 4,
+      ingredient_count = 2,
 
       energy_source =
     {

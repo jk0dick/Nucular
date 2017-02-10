@@ -26,7 +26,7 @@ data:extend(
       collision_box = {{-0.05, -1.1}, {0.05, 1.1}},
       acceleration = 0,
       direction_only = true,
-      piercing_damage = 150,
+      piercing_damage = 450,
       action =
       {
         type = "direct",
@@ -37,11 +37,11 @@ data:extend(
           {
             {
               type = "damage",
-              damage = { amount = 250 , type = "physical"}
+              damage = { amount = 750 , type = "physical"}
             },
             {
               type = "damage",
-              damage = { amount = 50 , type = "explosion"}
+              damage = { amount = 150 , type = "explosion"}
             }
           }
         }
@@ -121,7 +121,7 @@ data:extend(
                   {
                     {
                       type = "damage",
-                      damage = {amount = 1000, type = "explosion"}
+                      damage = {amount = 3000, type = "explosion"}
                     },
                     {
                       type = "create-entity",
@@ -234,7 +234,7 @@ data:extend(
                   target_effects =
                   {
                     type = "damage",
-                    damage = { amount = 6, type = "poison"}
+                    damage = { amount = 18, type = "poison"}
                   }
                 }
               }
@@ -252,7 +252,7 @@ data:extend(
                   target_effects =
                   {
                     type = "damage",
-                    damage = { amount = 4, type = "poison"}
+                    damage = { amount = 12, type = "poison"}
                   }
                 }
               }

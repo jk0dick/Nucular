@@ -43,7 +43,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "nuclear-fuel",
     order = "a",
-    stack_size = 10
+    stack_size = 50
   },
   {
     type = "item",
@@ -52,7 +52,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "nuclear-fuel",
     order = "b",
-    stack_size = 10
+    stack_size = 50
   },
   {
     type = "item",
